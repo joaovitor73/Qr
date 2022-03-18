@@ -5,7 +5,7 @@ import java.awt.Graphics;
 import javax.swing.JPanel;
 
 public class Qr extends JPanel {
-	int codifi[];
+	private int codifi[];
 	
 	public Qr(int[] con) {
 		codifi = con;		
@@ -32,7 +32,7 @@ public class Qr extends JPanel {
 		    	}
 	       		
 	    	}
-	    	 System.out.print("\n");
+	    	 //System.out.print("\n");
 	    }
 	}
 
